@@ -13,7 +13,7 @@ public class MyFirstClass {
 
         String baseUrl = "http://demo.guru99.com/test/newtours/";
         String expectedTitle = "Welcome: Mercury Tours";
-        String actualTitle = "";
+        String actualTitle;
 
         // launch browser  and direct it to the Base URL
         driver.get(baseUrl);
@@ -31,7 +31,8 @@ public class MyFirstClass {
             System.out.println("Test Failed");
         }
 
-        //close Fire fox
+        //close Chrome
+
         driver.close();
 
     }
